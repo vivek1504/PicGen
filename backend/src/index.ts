@@ -10,8 +10,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 
-const allowedOrigins = ["http://localhost:8080", "https://picgenai.vercel.app"];
+dotenv.config();
 
+const allowedOrigins = process.env.ALLOWED_ORIGINS;
 const app = express();
 const prisma = new PrismaClient();
 
@@ -22,8 +23,6 @@ app.use(
   }),
 );
 app.use(express.json());
-
-dotenv.config();
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
