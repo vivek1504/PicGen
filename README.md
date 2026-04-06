@@ -4,13 +4,13 @@ A full-stack web application that generates images from text prompts using AI. B
 
 ## Features
 
-- 🎨 **AI Image Generation**: Generate high-quality images from text descriptions
-- 🎭 **Multiple Styles**: Choose from various artistic styles for your images
-- 🔐 **User Authentication**: Secure authentication powered by Clerk
-- 📸 **Image Gallery**: Browse and explore generated images
-- ☁️ **Cloud Storage**: Images stored securely with Cloudinary
-- 📱 **Responsive Design**: Works seamlessly across all devices
-- 🗄️ **Database Integration**: PostgreSQL database with Prisma ORM
+- **AI Image Generation**: Generate high-quality images from text descriptions
+- **Multiple Styles**: Choose from various artistic styles for your images
+- **User Authentication**: Secure authentication powered by Clerk
+- **Image Gallery**: Browse and explore generated images
+- **Cloud Storage**: Images stored securely with Cloudinary
+- **Responsive Design**: Works seamlessly across all devices
+- **Database Integration**: PostgreSQL database with Prisma ORM
 
 ## Tech Stack
 
